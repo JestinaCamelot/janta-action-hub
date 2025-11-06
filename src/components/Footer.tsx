@@ -72,27 +72,34 @@ const Footer = () => {
 
             <div>
               <h4 className="mb-4 font-semibold">Connect With Us</h4>
-              <div className="flex gap-4">
+              <div className="flex flex-wrap gap-4">
                 <a
-                  href="#"
+                  href="https://www.facebook.com/zishan.siddiqui.94"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary transition-colors hover:bg-primary/20"
                   aria-label="Facebook"
                 >
                   <Facebook className="h-5 w-5" />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.instagram.com/zishan_s93/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary transition-colors hover:bg-primary/20"
                   aria-label="Instagram"
                 >
                   <Instagram className="h-5 w-5" />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.facebook.com/p/Quazi-Zishan-Siddiqui-voice-for-betterment-100063678821162/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary transition-colors hover:bg-primary/20"
-                  aria-label="YouTube"
+                  aria-label="Facebook Page"
+                  title="Voice for Betterment"
                 >
-                  <Youtube className="h-5 w-5" />
+                  <Facebook className="h-5 w-5" />
                 </a>
                 <a
                   href="mailto:contact@jantafoundation.org"
@@ -102,6 +109,9 @@ const Footer = () => {
                   <Mail className="h-5 w-5" />
                 </a>
               </div>
+              <p className="mt-3 text-xs text-muted-foreground">
+                Follow President Quazi Zeeshan Siddique
+              </p>
             </div>
           </div>
         </div>
